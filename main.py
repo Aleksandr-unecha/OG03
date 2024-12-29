@@ -79,7 +79,7 @@ def draw_target(x, y):
     # Черные полосы по осям X и Y
     line_color = (0, 0, 0)
     line_width = 3
-    pygame.draw.line(screen, line_color, (x - target_radius, y), (x + target_radius, y), line_width)
+    pygame.draw.line(screen, line_color, (x - target_radius, y), (x + target_radius, y))
     pygame.draw.line(screen, line_color, (x, y - target_radius), (x, y + target_radius), line_width)
 
     # Отрисовка цифры "10" поверх всех слоев
